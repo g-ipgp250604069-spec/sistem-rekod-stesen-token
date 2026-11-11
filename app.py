@@ -56,11 +56,11 @@ with col1:
             st.toast("✅ 1 Token direkodkan!")
     with c2:
         if st.button("+5 Token", use_container_width=True):
-            add_entry("Token", 5)
+            add_entry("Token", 3)
             st.toast("✅ 3 Token direkodkan!")
     with c3:
         if st.button("+10 Token", use_container_width=True):
-            add_entry("Token", 10)
+            add_entry("Token", 6)
             st.toast("✅ 6 Token direkodkan!")
 
 with col2:
