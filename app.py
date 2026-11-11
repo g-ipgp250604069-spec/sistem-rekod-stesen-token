@@ -57,11 +57,11 @@ with col1:
     with c2:
         if st.button("+5 Token", use_container_width=True):
             add_entry("Token", 5)
-            st.toast("✅ 5 Token direkodkan!")
+            st.toast("✅ 3 Token direkodkan!")
     with c3:
         if st.button("+10 Token", use_container_width=True):
             add_entry("Token", 10)
-            st.toast("✅ 10 Token direkodkan!")
+            st.toast("✅ 6 Token direkodkan!")
 
 with col2:
     st.subheader("🏷️ Panel Wristband (Pass Percuma)")
